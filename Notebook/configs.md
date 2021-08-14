@@ -11,6 +11,7 @@
 # System info
 * neofetch
 
-# Spotify
+# Spotify 
 * [Spicetify](https://github.com/khanhas/spicetify-cli)
+* [Spicetify-Themes](https://github.com/morpheusthewhite/spicetify-themes)
 
