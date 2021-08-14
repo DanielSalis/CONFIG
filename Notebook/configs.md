@@ -7,3 +7,6 @@
 
 # Shell
 * Zshell -> spaceship & dracula 
+
+# System info
+* neofetch
