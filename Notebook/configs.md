@@ -10,3 +10,7 @@
 
 # System info
 * neofetch
+
+# Spotify
+* [Spicetify](https://github.com/khanhas/spicetify-cli)
+
