@@ -15,3 +15,18 @@
 * [Spicetify](https://github.com/khanhas/spicetify-cli)
 * [Spicetify-Themes](https://github.com/morpheusthewhite/spicetify-themes)
 
+
+# Gnome Post Instalation Adjusts
+
+## 0) Install:
+* Gnome Tweaks;
+* Editor dconf;
+
+## 1) Creating a shortcut to center application
+* Into dconf go to ```/org/gnome/desktop/wm/keybindings```
+* Find ```move-to-center``` field
+* Change to your shortcut preferences
+    * Ex: ```['<Super>c']```
+
+## 2) Show only current workspace apps when pressed "alt + tab"
+* ```gsettings set org.gnome.shell.app-switcher current-workspace-only true```
