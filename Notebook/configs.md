@@ -6,7 +6,7 @@
 * [Orchis](https://www.gnome-look.org/p/1357889)
 
 # GTK Icon Icones
-* [Zefiro](https://github.com/zayronxio/Zafiro-icons)
+* [Zafiro](https://github.com/zayronxio/Zafiro-icons)
 
 # Shell
 * Zshell -> spaceship & dracula 
