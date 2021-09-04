@@ -2,6 +2,9 @@
 * Sweet-mars-v40 (atual)
 * [Sweet](https://www.gnome-look.org/p/1253385/) 
 
+* Orchis Orange (alternativa)
+* [Orchis](https://www.gnome-look.org/p/1357889)
+
 # GTK Icon Icones
 * [Zefiro](https://github.com/zayronxio/Zafiro-icons)
 
