@@ -5,6 +5,12 @@
 * Orchis Orange (alternativa)
 * [Orchis](https://www.gnome-look.org/p/1357889)
 
+* Orchis Orange (alternativa)
+* [Yaru-Colors](https://www.gnome-look.org/p/1299514)
+
+* Orchis Orange (alternativa)
+* [Vimix-Gtk-Theme](https://www.gnome-look.org/p/1013698)
+
 # GTK Icon Icones
 * [Zafiro](https://github.com/zayronxio/Zafiro-icons)
 
