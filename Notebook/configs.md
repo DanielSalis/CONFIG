@@ -39,3 +39,10 @@
 
 ## 2) Show only current workspace apps when pressed "alt + tab"
 * ```gsettings set org.gnome.shell.app-switcher current-workspace-only true```
+
+## 3) Fonts
+* Interface, Documents, Windows
+    * [Yosemite San Francisco](https://github.com/supermarin/YosemiteSanFranciscoFont)
+
+* Terminal, Monospaced
+    [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono?category=Monospace)
