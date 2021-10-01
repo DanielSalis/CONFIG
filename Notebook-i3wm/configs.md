@@ -13,3 +13,10 @@
 * **xbacklight** is a utility to set our laptop’s screen brightness.
 * **feh** is a utility to set a wallpaper (alternative: nitrogen).
 * **conky** is a utility to display information of the system in a awesome way.
+
+
+## Other Commands
+
+### If you are using spotify with flatpak
+* *Aplication does not show up into dmenu (it's necessary to create a link)
+```sudo ln -s /var/lib/flatpak/exports/bin/com.spotify.Client /usr/bin/spotify```
