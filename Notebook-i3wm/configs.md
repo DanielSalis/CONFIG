@@ -20,3 +20,7 @@
 ### If you are using spotify with flatpak
 * *Aplication does not show up into dmenu (it's necessary to create a link)
 ```sudo ln -s /var/lib/flatpak/exports/bin/com.spotify.Client /usr/bin/spotify```
+
+### Connecting into wifi network
+* List networks: ```nmcli dev wifi```
+* Connect: ```nmcli device wifi connect <network_name> password <password>```
