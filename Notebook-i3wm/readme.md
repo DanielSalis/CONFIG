@@ -14,6 +14,11 @@
 * **feh** is a utility to set a wallpaper (alternative: nitrogen).
 * **conky** is a utility to display information of the system in a awesome way.
 
+## Rofi
+* [Rofi](https://github.com/davatorium/rofi)(Dmenu alternative)
+
+## Bumblebee Status Bar
+* [Bumblebee](https://github.com/tobi-wan-kenobi/bumblebee-status) (Alternative to i3 default bar)
 
 ## Other Commands
 
