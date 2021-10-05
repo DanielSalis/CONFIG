@@ -29,3 +29,8 @@
 ### Connecting into wifi network
 * List networks: ```nmcli dev wifi```
 * Connect: ```nmcli device wifi connect <network_name> password <password>```
+
+### Changing monitor location
+* run ```xrandr```
+* get outputs names
+* run ```xrandr --output <monitor2> --left-of <monitor1>```
