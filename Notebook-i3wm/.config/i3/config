@@ -159,7 +159,7 @@ exec --no-startup-id feh --bg-scale '/home/daniel/Imagens/Papéis de parede/wall
 
 # move workspaces to diferent monitors
 bindsym $mod+x move workspace to output right
-bindsym $mod+z move workspace to output right
+bindsym $mod+z move workspace to output left
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -198,14 +198,19 @@ for_window [class=".*"] border pixel 0
 gaps inner 10
 gaps outer 5
 
+# Load gnome settings
 exec --no-startup-id /usr/libexec/gnome-settings-daemon-localeexec
 
+# Resize
 bindsym $mod+r mode "resize"
 
 # Screenshots
 bindsym --release Print exec gnome-screenshot
 bindsym --release Mod1+Sys_Req exec gnome-screenshot -w
 bindsym --release Shift+Print exec gnome-screenshot -a
+
+# Screen location
+exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
