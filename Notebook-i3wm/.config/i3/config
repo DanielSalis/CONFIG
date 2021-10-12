@@ -120,14 +120,6 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-exec --no-startup-id i3-msg 'workspace 10; exec spotify;'
-exec --no-startup-id i3-msg 'workspace 1; exec google-chrome;'
-exec --no-startup-id i3-msg 'workspace 2; exec google-chrome;'
-exec --no-startup-id i3-msg 'workspace 3; exec Discord;'
-exec --no-startup-id i3-msg 'workspace 3; exec slack;'
-exec --no-startup-id i3-msg 'workspace 4; exec code;'
-
-
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -139,6 +131,14 @@ bindsym $mod+7 workspace number $ws7
 bindsym $mod+8 workspace number $ws8
 bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
+
+#binding programs to each workspace
+bindsym $mod+Control+1 workspace number $ws1 exec --no-startup-id google-chrome
+bindsym $mod+Control+2 workspace number $ws2 exec --no-startup-id google-chrome
+bindsym $mod+Control+3 workspace number $ws3 exec --no-startup-id discord
+bindsym $mod+Control+4 workspace number $ws4 exec --no-startup-id code
+bindsym $mod+Control+0 workspace number $ws10 exec --no-startup-id spotify
+
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace number $ws1
@@ -202,8 +202,8 @@ mode "resize" {
 
 # Gaps
 for_window [class=".*"] border pixel 0
-gaps inner 10
-gaps outer 5
+gaps inner 8
+gaps outer 7
 
 # Load gnome settings
 exec --no-startup-id /usr/libexec/gnome-settings-daemon-localeexec
@@ -226,8 +226,8 @@ exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
 #         position top
 # }
 bar {
-	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory nic time \
-		pasink pasource brightness battery system -p memory.format="{used}/{total}" nic.format="{intf}{state}" time.format="%H:%M" -t iceberg-rainbow
+	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory nic \
+		pasink pasource brightness time battery -p memory.format="{used}/{total}" nic.format="{intf}{state}" time.format="%d/%m/%Y - %H:%M" -t nord-powerline
         position top
         font pango:Inconsolata 10
 }
