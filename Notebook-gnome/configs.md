@@ -11,6 +11,9 @@
 * Orchis Orange (alternativa)
 * [Vimix-Gtk-Theme](https://www.gnome-look.org/p/1013698)
 
+* Nord (alternativa)
+* [Nord](https://www.gnome-look.org/p/1267246/)
+
 # GTK Icon Icones
 * [Zafiro](https://github.com/zayronxio/Zafiro-icons)
 
