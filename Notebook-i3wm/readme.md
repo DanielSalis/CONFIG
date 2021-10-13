@@ -20,6 +20,10 @@
 ## Bumblebee Status Bar
 * [Bumblebee](https://github.com/tobi-wan-kenobi/bumblebee-status) (Alternative to i3 default bar)
 
+# Spotify 
+* [Spicetify](https://github.com/khanhas/spicetify-cli)
+* [Spicetify-Themes](https://github.com/morpheusthewhite/spicetify-themes)
+
 ## Other Commands
 
 ### If you are using spotify with flatpak
