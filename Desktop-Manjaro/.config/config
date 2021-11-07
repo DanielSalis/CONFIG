@@ -211,6 +211,7 @@ bindsym --release Shift+Print exec --no-startup-id gnome-screenshot -a
 
 # Screen location
 exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
+exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 -r 144.00
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -225,4 +226,4 @@ exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
 exec_always --no-startup-id /home/daniel/.config/polybar/launch.sh --blocks
 
 #Picom (compositor)
-exec --no-startup-id picom -b --config /home/daniel/.config/picom/picom.conf
+exec_always --no-startup-id picom -b --experimental-backends --vsync --config /home/daniel/.config/picom/picom.conf
