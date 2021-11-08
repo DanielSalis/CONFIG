@@ -44,7 +44,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id gnome-terminal
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -159,7 +159,7 @@ bindsym $mod+Control+c move position center
 bindsym $mod+Control+l exec --no-startup-id i3lock
 
 # set background
-exec --no-startup-id feh --bg-scale '/home/daniel/Imagens/Papéis de parede/the-great-wave.png'
+exec --no-startup-id feh --bg-scale '/home/daniel/Imagens/Papéis de parede/earth-in-space.png'
 
 # lock
 # exec --no-startup-id i3lock 
@@ -231,3 +231,6 @@ bar {
         position top
         font pango:Inconsolata 10
 }
+
+#Picom (compositor)
+exec_always --no-startup-id picom -b --experimental-backends --vsync --config /home/daniel/.config/picom/picom.conf
