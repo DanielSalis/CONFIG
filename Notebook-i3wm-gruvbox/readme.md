@@ -27,6 +27,9 @@
 # GTK themes and icons
 * [Theme](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
 
+# Change GTK Theme
+* Lxappearence
+
 ## Other Commands
 
 ### If you are using spotify with flatpak
