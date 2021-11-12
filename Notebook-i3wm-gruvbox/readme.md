@@ -24,6 +24,9 @@
 * [Spicetify](https://github.com/khanhas/spicetify-cli)
 * [Spicetify-Themes](https://github.com/morpheusthewhite/spicetify-themes)
 
+# GTK themes and icons
+* [Theme](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
+
 ## Other Commands
 
 ### If you are using spotify with flatpak
