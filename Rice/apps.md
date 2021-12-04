@@ -6,3 +6,6 @@
 
 ## Papirus icons theme
 * [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#papirus-installer)
+
+## GTK Themes manager
+*  [Lxappearence](https://archlinux.org/packages/community/x86_64/lxappearance/)
