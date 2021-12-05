@@ -1,10 +1,10 @@
 ### Applications install guide
 
 
-## GTK THEME
+## GTK apps theme
 * [Nord](https://www.gnome-look.org/p/1267246/)
 
-## Papirus icons theme
+## GTK icons theme
 * [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#papirus-installer)
 
 ## GTK Themes manager
