@@ -228,3 +228,6 @@ bindsym $mod+b exec --no-startup-id polybar -q main_left -c /home/dani/.config/p
 
 #Picom (compositor)
 exec_always --no-startup-id picom -b --vsync --config /home/dani/.config/picom/picom.conf
+
+#TTY-clock 
+bindsym $mod+Shift+t exec --no-startup-id alacritty -e bash -c "tty-clock -s -c -C 4" &
