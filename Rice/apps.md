@@ -10,6 +10,6 @@
 ## GTK Themes manager
 *  [Lxappearence](https://archlinux.org/packages/community/x86_64/lxappearance/)
 
-## Custum Spotify
+## Custom Spotify
 * [Spicetify](https://github.com/khanhas/spicetify-cli)
 * [SpicetifyThemes](https://github.com/morpheusthewhite/spicetify-themes)
