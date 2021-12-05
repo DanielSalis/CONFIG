@@ -13,3 +13,7 @@
 ## Custom Spotify
 * [Spicetify](https://github.com/khanhas/spicetify-cli)
 * [SpicetifyThemes](https://github.com/morpheusthewhite/spicetify-themes)
+
+## Clock cli
+* tty-clock
+* running: "tty-clock -s -c -C 4"
