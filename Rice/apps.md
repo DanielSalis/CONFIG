@@ -17,3 +17,6 @@
 ## Clock cli
 * tty-clock
 * running: "tty-clock -s -c -C 4"
+
+## Piper (interface to ratbagd, the system daemon for configurable mice)
+* [Piper](https://aur.archlinux.org/packages/piper-git/)
