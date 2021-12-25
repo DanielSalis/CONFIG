@@ -14,6 +14,7 @@ yay -S alacritty
 yay -S rofi
 yay -S arandr
 yay -S picom
+yay -S cli-visualizer
 ```
 
 ## 2 - Extra Apps
