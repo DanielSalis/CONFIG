@@ -12,6 +12,7 @@ yay -S feh
 yay -S polybar
 yay -S alacritty 
 yay -S rofi
+yay -S arandr
 ```
 
 ## 2 - Extra Apps
