@@ -13,6 +13,7 @@ yay -S polybar
 yay -S alacritty 
 yay -S rofi
 yay -S arandr
+yay -S picom
 ```
 
 ## 2 - Extra Apps
