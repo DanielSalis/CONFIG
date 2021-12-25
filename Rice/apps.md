@@ -5,6 +5,7 @@
 ``` bash
 yay -S i3-gaps
 yay -S i3status
+yay -S i3lock
 yay -S dmenu
 yay -S xorg-xbacklight
 yay -S feh
