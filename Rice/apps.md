@@ -10,6 +10,7 @@ yay -S xorg-xbacklight
 yay -S feh
 yay -S polybar
 yay -S alacritty 
+yay -S rofi
 ```
 
 ## 2 - Extra Apps
