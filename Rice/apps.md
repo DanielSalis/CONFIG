@@ -14,7 +14,6 @@ yay -S alacritty
 yay -S rofi
 yay -S arandr
 yay -S picom
-yay -S cli-visualizer
 ```
 
 ## 2 - Extra Apps
@@ -35,6 +34,10 @@ yay -S cli-visualizer
 ### Clock cli
 * tty-clock
 * running: "tty-clock -s -c -C 4"
+
+### Cli-visualizer
+* [Install guide](https://github.com/dpayne/cli-visualizer)
+* run ```vis```
 
 ### Piper (interface to ratbagd, the system daemon for configurable mice)
 * [Piper](https://aur.archlinux.org/packages/piper-git/)
