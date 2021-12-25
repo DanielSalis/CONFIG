@@ -7,7 +7,9 @@ yay -S i3-gaps
 yay -S i3status
 yay -S dmenu
 yay -S xorg-xbacklight
-yay -S feh 
+yay -S feh
+yay -S polybar
+yay -S alacritty 
 ```
 
 ## 2 - Extra Apps
