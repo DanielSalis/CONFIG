@@ -14,6 +14,8 @@ yay -S alacritty
 yay -S rofi
 yay -S arandr
 yay -S picom
+yay -S zscroll
+yay -S playerctl
 ```
 
 ## 2 - Extra Apps
