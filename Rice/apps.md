@@ -43,3 +43,19 @@ yay -S playerctl
 
 ### Piper (interface to ratbagd, the system daemon for configurable mice)
 * [Piper](https://aur.archlinux.org/packages/piper-git/)
+
+
+## 3 - Troubleshooting
+
+### If you are using spotify with flatpak
+* *Aplication does not show up into dmenu (it's necessary to create a link)
+```sudo ln -s /var/lib/flatpak/exports/bin/com.spotify.Client /usr/bin/spotify```
+
+### Connecting into wifi network
+* List networks: ```nmcli dev wifi```
+* Connect: ```nmcli device wifi connect <network_name> password <password>```
+
+### Changing monitor location
+* run ```xrandr```
+* get outputs names
+* run ```xrandr --output <monitor2> --left-of <monitor1>```
