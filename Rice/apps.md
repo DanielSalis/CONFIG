@@ -44,6 +44,9 @@ yay -S playerctl
 ### Piper (interface to ratbagd, the system daemon for configurable mice)
 * [Piper](https://aur.archlinux.org/packages/piper-git/)
 
+### Nord image converter
+* [Nord Converter](https://ign.schrodinger-hat.it/)
+
 
 ## 3 - Troubleshooting
 
