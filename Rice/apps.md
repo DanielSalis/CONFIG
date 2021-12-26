@@ -59,3 +59,12 @@ yay -S playerctl
 * run ```xrandr```
 * get outputs names
 * run ```xrandr --output <monitor2> --left-of <monitor1>```
+
+### Light
+* Case your xbacklight doesn't work properly
+* [Light](https://github.com/haikarainen/light)
+* Add this lines into your i3/config:
+```
+bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5; notify-send 'brightness up'"
+bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'brightness down'"
+```
