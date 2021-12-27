@@ -149,8 +149,10 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Control+c move position center
 
 # lock screen
-bindsym $mod+Control+l exec --no-startup-id i3lock
-
+# bindsym $mod+Control+l exec --no-startup-id i3lock -i /home/daniel/Imagens/wallpapers/jp-city-nord.png -F --radius 45
+# set wallpaper ---> betterlockscreen -u /home/daniel/Imagens/wallpapers/jp-city-nord.png --fx dim,pixe
+bindsym $mod+Control+l exec --no-startup-id betterlockscreen -l
+ 
 # set background
 exec_always --no-startup-id feh --bg-scale '/home/daniel/Imagens/wallpapers/Nordic6.jpg'
 
@@ -209,9 +211,9 @@ bindsym --release Print exec --no-startup-id gnome-screenshot
 bindsym --release Mod1+Sys_Req exec --no-startup-id gnome-screenshot -w
 bindsym --release Shift+Print exec --no-startup-id gnome-screenshot -a
 
-# Screen location
-exec --no-startup-id xrandr --output DP-1 --left-of HDMI-0
-exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 -r 144.00
+# # Screen location
+# exec --no-startup-id xrandr --output DP-1 --left-of HDMI-0
+# exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 -r 144.00
 
 #Brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5; notify-send 'brightness up'"
