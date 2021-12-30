@@ -47,6 +47,10 @@ yay -S playerctl
 ### Nord image converter
 * [Nord Converter](https://ign.schrodinger-hat.it/)
 
+### Betterlockscreen
+* i3lock fork that enhance image effects
+* [Repo](https://github.com/betterlockscreen/betterlockscreen)
+
 
 ## 3 - Troubleshooting
 
