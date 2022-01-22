@@ -234,7 +234,7 @@ exec_always --no-startup-id /home/daniel/.config/polybar/launch.sh --blocks
 bindsym $mod+b exec --no-startup-id polybar -q main_left -c /home/daniel/.config/polybar/blocks/config.ini
 
 #Picom (compositor)
-exec_always --no-startup-id picom -b --config /home/daniel/.config/picom/picom.conf
+exec_always --no-startup-id picom -b --experimental-backend --config /home/daniel/.config/picom/picom.conf
 
 #TTY-clock 
 bindsym $mod+Shift+t exec --no-startup-id alacritty -e bash -c "tty-clock -s -c -C 4" &
