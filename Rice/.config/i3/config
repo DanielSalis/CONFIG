@@ -152,18 +152,18 @@ bindsym $mod+Control+c move position center
 # bindsym $mod+Control+l exec --no-startup-id i3lock -i /home/daniel/Imagens/wallpapers/jp-city-nord.png -F --radius 45
 # set wallpaper ---> betterlockscreen -u /home/daniel/Imagens/wallpapers/jp-city-nord.png --fx dim,pixe
 bindsym $mod+Control+l exec --no-startup-id betterlockscreen -l
- 
+
 # set background
 exec --no-startup-id feh --bg-scale '/home/daniel/Imagens/wallpapers/031.png'
 
 # lock
-# exec --no-startup-id i3lock 
+# exec --no-startup-id i3lock
 
 # move workspaces to diferent monitors
 bindsym $mod+x move workspace to output right
 bindsym $mod+z move workspace to output left
 bindsym $mod+shift+x move workspace to output up
-bindsym $mod+shift+z move workspace to output down
+bindsym $mod+shit+z move workspace to output down
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -221,9 +221,8 @@ exec --no-startup-id xrandr --output DP-1 --above eDP-1
 # keyboard layout
 # US - international
 exec --no-startup-id setxkbmap us -variant intl
-
 # BR - ABNT2
-setxkbmap -model pc105 -layout br -variant abnt2
+#setxkbmap -model pc105 -layout br -variant abnt2
 
 #Brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5; notify-send 'brightness up'"
@@ -245,5 +244,5 @@ bindsym $mod+b exec --no-startup-id polybar -q main_left -c /home/daniel/.config
 #Picom (compositor)
 exec_always --no-startup-id picom -b --experimental-backend --config /home/daniel/.config/picom/picom.conf
 
-#TTY-clock 
+#TTY-clock
 bindsym $mod+Shift+t exec --no-startup-id alacritty -e bash -c "tty-clock -s -c -C 4" &
