@@ -239,7 +239,9 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 
 #Polybar
 exec_always --no-startup-id /home/daniel/.config/polybar/launch.sh --blocks
-bindsym $mod+b exec --no-startup-id polybar -q main_left -c /home/daniel/.config/polybar/blocks/config.ini
+bindsym $mod+b exec --no-startup-id polybar -q main_primary -c /home/daniel/.config/polybar/blocks/config.ini
+bindsym $mod+Shift+b exec --no-startup-id polybar -q main_secondary -c /home/daniel/.config/polybar/blocks/config.ini
+
 
 #Picom (compositor)
 exec_always --no-startup-id picom -b --experimental-backend --config /home/daniel/.config/picom/picom.conf
