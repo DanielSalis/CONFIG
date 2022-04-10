@@ -215,7 +215,8 @@ bindsym --release Mod1+Sys_Req exec --no-startup-id gnome-screenshot -w
 bindsym --release Print exec --no-startup-id gnome-screenshot -a
 
 # # Screen location
-exec --no-startup-id xrandr --output DP-1 --above eDP-1
+exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
+exec --no-startup-id xrandr --output DP-2 --left-of DP-1
 # exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 -r 144.00
 
 # keyboard layout
