@@ -454,7 +454,7 @@ schemes:
       magenta: '#ff5370'  # Dark pink of the original material theme
       cyan:    '#39adb5'
       white:   '#a0a0a0'  # Arbitrary
-  
+
     # Bright colors
     bright:
       black:   '#4e4e4e'  # Arbitrary
@@ -487,7 +487,7 @@ schemes:
       magenta: '#ff005d'
       cyan:    '#00bbbb'
       white:   '#bbbbbb'
-  
+
     bright:
       black:   '#555555'
       red:     '#f40e17'
@@ -572,12 +572,12 @@ schemes:
     primary:
       background: '#fdf6e3' # base3
       foreground: '#657b83' # base00
-  
+
     # Cursor colors
     cursor:
       text:   '#fdf6e3' # base3
       cursor: '#657b83' # base00
-  
+
     # Normal colors
     normal:
       black:   '#073642' # base02
@@ -588,7 +588,7 @@ schemes:
       magenta: '#d33682' # magenta
       cyan:    '#2aa198' # cyan
       white:   '#eee8d5' # base2
-  
+
     # Bright colors
     bright:
       black:   '#002b36' # base03
@@ -613,7 +613,7 @@ schemes:
        magenta: '#cd00cd'
        cyan:    '#00cdcd'
        white:   '#e5e5e5'
-  
+
      # Bright colors
      bright:
        black:   '#7f7f7f'
@@ -682,7 +682,7 @@ schemes:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
+window.opacity: 0.95
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -700,7 +700,7 @@ background_opacity: 0.95
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  #style: 
+  #style:
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
   #unfocused_hollow: true
