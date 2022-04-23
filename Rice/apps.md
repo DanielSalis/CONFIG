@@ -10,7 +10,7 @@ yay -S dmenu
 yay -S xorg-xbacklight
 yay -S feh
 yay -S polybar
-yay -S alacritty 
+yay -S alacritty
 yay -S rofi
 yay -S arandr
 yay -S picom
@@ -24,6 +24,7 @@ yay -S playerctl
 * [Nord](https://www.gnome-look.org/p/1267246/)
 
 ### GTK icons theme
+* [Nord](https://www.gnome-look.org/p/1473069/)
 * [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#papirus-installer)
 
 ### GTK Themes manager
