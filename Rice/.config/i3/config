@@ -202,7 +202,7 @@ for_window [class=".*"] border pixel 1
 gaps inner 6
 gaps outer 2
 
-client.focused              #FFFFFF #FFFFFF #FFFFFF
+client.focused              #FFFFFF #FFFFFF #FFFFFF #FFFFFF
 # client.unfocused            #353439 #9FEE00 #7B9F35
 # client.focused_inactive     #353439 #9FEE00 #7B9F35
 # client.urgent
