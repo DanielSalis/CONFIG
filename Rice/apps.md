@@ -16,6 +16,7 @@ yay -S arandr
 yay -S picom
 yay -S zscroll
 yay -S playerctl
+yay -S betterlockscreen
 ```
 
 ## 2 - Extra Apps
