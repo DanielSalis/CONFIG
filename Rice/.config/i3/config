@@ -198,7 +198,7 @@ mode "resize" {
 }
 
 # Gaps
-for_window [class=".*"] border pixel 1
+for_window [class=".*"] border pixel 0
 gaps inner 6
 gaps outer 2
 
