@@ -78,3 +78,6 @@ bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5; notify-send 'brigh
 bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'brightness down'"
 ```
 * run `sudo chmod +s /usr/bin/light` to give the proper privileges
+
+### Xprop
+* Case you want to get a window class run ```xprop``` into the terminal and then click on the target window
