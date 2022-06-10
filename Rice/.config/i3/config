@@ -149,12 +149,11 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Control+c move position center
 
 # lock screen
-# bindsym $mod+Control+l exec --no-startup-id i3lock -i /home/daniel/Imagens/wallpapers/jp-city-nord.png -F --radius 45
 # set wallpaper ---> betterlockscreen -u /home/daniel/Imagens/wallpapers/jp-city-nord.png --fx dim,pixe
 bindsym $mod+Control+l exec --no-startup-id betterlockscreen -l
 
 # set background
-exec --no-startup-id feh --bg-scale '/home/daniel/Imagens/wallpapers/031.png'
+exec --no-startup-id feh --bg-scale /home/daniel/Imagens/wallpapers/wallpaper.png
 
 # lock
 # exec --no-startup-id i3lock
@@ -197,15 +196,18 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+#Title
+for_window [class=".*"] title_format "<b>%class</b>"
+
 # Gaps
 for_window [class=".*"] border pixel 0
 gaps inner 6
 gaps outer 2
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #4C566A #ffffff #2e9ef4   #4C566A
+client.focused          #ffffff #4C566A #ffffff #2e9ef4   #4C566A
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.unfocused        #4c7899 #222222 #888888 #292d2e   #222222
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
@@ -247,7 +249,7 @@ bar {
 	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory nic time \
 		pasink pasource brightness battery  -p memory.format="{used}/{total}" nic.format="{intf}{state}" time.format="%H:%M" -t nord-powerline
         position top
-        font pango:Inconsolata 10
+        font pango:Inconsolata 12
 }
 
 #Polybar
