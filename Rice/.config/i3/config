@@ -246,8 +246,8 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 # will install bumblebee-status into ~/.local/bin/bumblebee-status
         # pip install --user bumblebee-status
 bar {
-	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory nic time \
-		pasink pasource brightness battery  -p memory.format="{used}/{total}" nic.format="{intf}{state}" time.format="%H:%M" -t nord-powerline
+	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory time \
+		nic pasink pasource brightness battery  -p memory.format="{used}/{total}" nic.format="{intf}{state}" time.format="%H:%M" -t test
         position top
         font pango:Inconsolata 12
 }
