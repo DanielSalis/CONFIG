@@ -204,6 +204,8 @@ for_window [class=".*"] border pixel 0
 gaps inner 6
 gaps outer 2
 
+for_window [class="Alacritty"] border pixel 2
+
 # class                 border  backgr. text    indicator child_border
 client.focused          #ffffff #4C566A #ffffff #2e9ef4   #4C566A
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
@@ -248,7 +250,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 bar {
         # i3bar_command i3bar --transparency
 	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory time \
-		nic pasink pasource brightness battery  -p memory.format="{percent:05.02f}%" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
+		nic pasink pasource brightness battery  -p memory.format="{used}" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
         position top
         font pango:DejaVu Sans Mono 10
         tray_output DP-1
