@@ -249,8 +249,8 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
         # pip install --user bumblebee-status
 bar {
         # i3bar_command i3bar --transparency
-	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory time \
-		nic pasink pasource brightness battery  -p memory.format="{used}" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
+	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory \
+		nic pasink pasource brightness battery time  -p memory.format="{used}" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
         position top
         font pango:DejaVu Sans Mono 10
         tray_output DP-1
