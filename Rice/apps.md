@@ -83,5 +83,5 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 ### Xprop
 * Case you want to get a window class run ```xprop``` into the terminal and then click on the target window
 
-### Dunst
+## Dunst
 * Case you want to see app props go to [repo](https://github.com/dunst-project/dunst#building)
