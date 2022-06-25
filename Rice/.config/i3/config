@@ -281,5 +281,5 @@ exec_always --no-startup-id picom -b --experimental-backend --config /home/danie
 #TTY-clock
 bindsym $mod+Shift+t exec --no-startup-id alacritty -e bash -c "tty-clock -s -c -C 4" &
 
-#Battery Notification
-exec --no-startup-id i3-battery-popup -n -D -L 15 -l 10
+#Dunst notifications
+exec --no-startup-id dunst -conf .config/dunst/dunstrc
