@@ -85,7 +85,7 @@ bindsym $mod+Shift+Right move right
 # split in horizontal orientation
 bindsym $mod+h split h
 
-# split in vertical orientation
+# split in vertical orientationcd
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
@@ -223,14 +223,15 @@ bindsym $mod+r mode "resize"
 
 # Screenshots
 # bindsym --release Print exec --no-startup-id gnome-screenshot
-bindsym --release Mod1+Sys_Req exec --no-startup-id gnome-screenshot -w
-# bindsym --release Shift+Print exec --no-startup-id gnome-screenshot -a
-bindsym --release Print exec --no-startup-id gnome-screenshot -a
+bindsym --release $mod+Sys_Req exec --no-startup-id gnome-screenshot -w
+bindsym --release $mod+Shift+p exec --no-startup-id gnome-screenshot -a
+bindsym --release $mod+p exec --no-startup-id gnome-screenshot
 
 # # Screen location
 # exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
 # exec --no-startup-id xrandr --output DP-2 --left-of DP-1
 # exec --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 -r 144.00
+exec --no-startup-id "/home/daniel/.screenlayout/layout.sh"
 
 # keyboard layout
 # US - international
