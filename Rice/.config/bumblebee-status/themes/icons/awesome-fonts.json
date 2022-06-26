@@ -326,8 +326,7 @@
   },
   "battery": {
     "charged": {
-      "prefix": "",
-      "suffix": ""
+      "prefix": ""
     },
     "AC": {
       "suffix": ""
