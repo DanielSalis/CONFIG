@@ -145,6 +145,10 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
+# go to next workspace
+bindsym $mod+Control+Right workspace next
+bindsym $mod+Control+Left workspace prev
+
 # move floating window
 bindsym $mod+Control+c move position center
 
@@ -206,6 +210,7 @@ gaps outer 2
 
 for_window [class="Alacritty"] border pixel 2
 
+## OTHER PROPS
 # class                 border  backgr. text    indicator child_border
 client.focused          #ffffff #4C566A #ffffff #2e9ef4   #4C566A
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
