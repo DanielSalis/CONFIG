@@ -1,19 +1,19 @@
 configuration{
-    modi: "run,drun";
+    modi: "run,drun,window";
     lines: 5;
     font: "JetBrainsMono Nerd Font Medium 14";
-    show-icons: true;
+    /* show-icons: true; */
     icon-theme: "Papirus";
     terminal: "alacritty";
-    drun-display-format: "{name}";
+    drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
-    display-run: "   Run ";
     display-drun: "   Apps ";
+    display-run: "   Run ";
     display-window: " 﩯  Window ";
-    /* display-Network: " 󰤨  Network"; */
-    sidebar-mode: true;
+    display-Network: " 󰤨  Network";
+    /* sidebar-mode: true; */
 }
 
 @theme "tokyonight"
@@ -24,9 +24,12 @@ element-text, element-icon , mode-switcher {
 }
 
 window {
-    height: 52.5%;
-    width: 35%;
+    height: 30%;
+    width: 15%;
     /* border: 3px; */
+    location: east;
+	  x-offset: -0.45%;
+	  y-offset: -29.75%;
     border-color: @border-col;
     background-color: @bg-col;
     border-radius: 12px;
@@ -44,8 +47,8 @@ inputbar {
 }
 
 prompt {
-    background-color: @blue;
-    padding: 6px;
+    background-color: @red;
+    padding: 5px 15px 0px 10px;
     text-color: @bg-col;
     border-radius: 8px;
     margin: 20px 0px 0px 20px;
@@ -64,22 +67,23 @@ entry {
 }
 
 listview {
-    padding: 10 10 0;
-    margin: 10 10 0 10;
-    columns: 5;
+    border: 0px 0px 0px;
+    padding: 6px 0px 0px;
+    margin: 10px 10px 0px 10px;
+    columns: 2;
     background-color: @bg-col;
+    font: "JetBrainsMono Nerd Font Medium 12";
+
 }
 
 element {
-    padding: 15 10 15;
+    padding: 10;
     background-color: @bg-col;
     text-color: @fg-col  ;
-    orientation: vertical;
 }
 
 element-icon {
-    size: 56px;
-    horizontal-align: 0.5;
+    size: 32px;
 }
 
 element selected {
@@ -90,9 +94,7 @@ element selected {
 
 element-text {
     vertical-align: 0.5;
-    horizontal-align: 0.5;
-    expand: true;
-    font: "JetBrainsMono Nerd Font Medium 10";
+    font: "JetBrainsMono Nerd Font Medium 14";
   }
 
 mode-switcher {
@@ -101,9 +103,9 @@ mode-switcher {
 
 button {
     padding: 10px;
-    background-color: @bg-col;
-    text-color: @empty;
-    vertical-align: 0.5;
+    background-color: @bg-col-light;
+    text-color: @grey;
+    vertical-align: 0.5; 
     horizontal-align: 0.5;
 }
 
@@ -111,4 +113,5 @@ button selected {
   background-color: @bg-col;
   text-color: @blue;
 }
+
 
