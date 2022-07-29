@@ -1,5 +1,5 @@
 ##Refresh rate of the visualizers. A really high refresh rate may cause screen tearing. Default is 20.
-#visualizer.fps=20
+visualizer.fps=24
 
 ##Sets the audio sources to use.
 ##Currently available ones are "mpd", "pulse", "shmem", and "alsa". Defaults to "pulse".
@@ -88,4 +88,4 @@ visualizer.scaling.multiplier=0.2
 #colors.override.terminal=false
 
 ##Specifies the color scheme. The color scheme must be in ~/.config/vis/colors/ directory. The default scheme is "colors".
-colors.scheme=nord
+colors.scheme=tokyoNight
