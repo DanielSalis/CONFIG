@@ -50,8 +50,8 @@ bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+Shift+d exec --no-startup-id dmenu_run
-bindsym $mod+d exec --no-startup-id "$HOME/.config/polybar/blocks/scripts/launcher.sh"
+bindsym $mod+Shift+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec --no-startup-id rofi -show drun
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -157,7 +157,7 @@ bindsym $mod+Control+c move position center
 bindsym $mod+Control+l exec --no-startup-id betterlockscreen -l
 
 # set background
-exec --no-startup-id feh --bg-scale /home/daniel/Imagens/wallpapers/wallpaper.png
+#exec --no-startup-id feh --bg-scale /home/daniel/Imagens/wallpapers/wallpaper.png
 
 # lock
 # exec --no-startup-id i3lock
@@ -253,13 +253,13 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 ##Bumblebee
 # will install bumblebee-status into ~/.local/bin/bumblebee-status
         # pip install --user bumblebee-status
-bar {
+ bar {
         # i3bar_command i3bar --transparency
 	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory \
 		nic pasink pasource brightness battery time  -p memory.format="{used}" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
         position top
         font pango:DejaVu Sans Mono 10
-        tray_output DP-1
+        tray_output eDP-1
 
         colors {
                 background #0000000
@@ -276,7 +276,7 @@ bar {
 }
 
 #Polybar
-# exec_always --no-startup-id /home/daniel/.config/polybar/launch.sh --blocks
+#exec_always --no-startup-id /home/daniel/.config/polybar/tokyoNight/launch.sh
 # bindsym $mod+b exec --no-startup-id polybar -q main_primary -c /home/daniel/.config/polybar/blocks/config.ini
 # bindsym $mod+Shift+b exec --no-startup-id polybar -q main_secondary -c /home/daniel/.config/polybar/blocks/config.ini
 
