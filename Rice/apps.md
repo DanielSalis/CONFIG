@@ -85,3 +85,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 
 ### Dunst
 * Case you want to see app props go to [repo](https://github.com/dunst-project/dunst#building)
+
+### Bashtop
+`yay -S Bashtop`
