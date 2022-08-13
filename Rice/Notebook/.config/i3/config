@@ -253,30 +253,30 @@ bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5; notify-send 'bri
 ##Bumblebee
 # will install bumblebee-status into ~/.local/bin/bumblebee-status
         # pip install --user bumblebee-status
- bar {
-        # i3bar_command i3bar --transparency
-	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory \
-		nic pasink pasource brightness battery time  -p memory.format="{used}" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
-        position top
-        font pango:DejaVu Sans Mono 10
-        tray_output eDP-1
-
-        colors {
-                background #0000000
-                statusline #ffffff
-                separator #666666
-
-                focused_workspace  #4c7899 #285577 #ffffff
-                active_workspace   #333333 #5f676a #ffffff
-                inactive_workspace #333333 #222222 #888888
-                urgent_workspace   #2f343a #900000 #ffffff
-                binding_mode       #2f343a #900000 #ffffff
-        }
-        workspace_min_width 10
-}
+ # bar {
+ #       # i3bar_command i3bar --transparency
+#	status_command ~/.local/bin/bumblebee-status -m spotify cpu memory \
+#		nic pasink pasource brightness battery time  -p memory.format="{used}" nic.format="{state}" nic.include="wlp3s0" time.format="%H:%M" -t test
+ #       position top
+ #       font pango:DejaVu Sans Mono 10
+ #       tray_output eDP-1
+#
+ #       colors {
+ #               background #0000000
+ #               statusline #ffffff
+ #               separator #666666
+#
+ #               focused_workspace  #4c7899 #285577 #ffffff
+ #               active_workspace   #333333 #5f676a #ffffff
+ #               inactive_workspace #333333 #222222 #888888
+ #               urgent_workspace   #2f343a #900000 #ffffff
+ #               binding_mode       #2f343a #900000 #ffffff
+ #       }
+ #       workspace_min_width 10
+# }
 
 #Polybar
-#exec_always --no-startup-id /home/daniel/.config/polybar/tokyoNight/launch.sh
+exec_always --no-startup-id /home/daniel/.config/polybar/launch.sh
 # bindsym $mod+b exec --no-startup-id polybar -q main_primary -c /home/daniel/.config/polybar/blocks/config.ini
 # bindsym $mod+Shift+b exec --no-startup-id polybar -q main_secondary -c /home/daniel/.config/polybar/blocks/config.ini
 
