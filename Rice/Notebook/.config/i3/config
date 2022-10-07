@@ -229,8 +229,8 @@ bindsym $mod+r mode "resize"
 # Screenshots
 # bindsym --release Print exec --no-startup-id gnome-screenshot
 bindsym --release $mod+Sys_Req exec --no-startup-id gnome-screenshot -w
-bindsym --release $mod+Shift+p exec --no-startup-id gnome-screenshot -a
-bindsym --release $mod+p exec --no-startup-id gnome-screenshot
+bindsym --release $mod+Shift+p exec --no-startup-id flameshot screen  -c
+bindsym --release $mod+p exec --no-startup-id flameshot gui
 
 # # Screen location
 # exec --no-startup-id xrandr --output DP-1 --left-of eDP-1
