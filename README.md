@@ -1,3 +1,13 @@
-# Repositório de Configurações
-
-Neste repositório se encontram as configs / modificações visuais (extensões, temas de ícones, temas gtk, plugins, etc)
+Repository with multiple config files for apps into the i3wm system. It includes Desktop configs and notebook configs.
+Apps:
+- alacritty
+- bumblebee-status
+- dunst
+- i3
+- flameshot
+- nvim
+- picom
+- polybar
+- rofi
+- screenlayout
+- vis
