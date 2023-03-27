@@ -10,3 +10,4 @@ Apps:
 - polybar
 - rofi
 - screenlayout
+- vis (audio visualizer cli)
