@@ -10,4 +10,3 @@ Apps:
 - polybar
 - rofi
 - screenlayout
-- vis
