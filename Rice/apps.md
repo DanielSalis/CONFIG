@@ -1,3 +1,5 @@
+Repository with multiple config files for apps into the i3wm system. It includes Desktop configs and notebook configs.
+
 # Applications and Installation guide
 
 ## 1 - Instalation
