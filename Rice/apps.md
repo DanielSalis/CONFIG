@@ -64,6 +64,9 @@ Alphabetical App Grid GNOME Extension
 Just Perfection Gnome Shell Extension
 ```https://gitlab.gnome.org/jrahmatzadeh/just-perfection```
 
+Space Bar
+```https://github.com/christopher-l/space-bar```
+
 ## 4 - Troubleshooting
 
 ### If you are using spotify with flatpak
