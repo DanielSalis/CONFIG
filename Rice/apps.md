@@ -57,7 +57,11 @@ yay -S dunst
 * [Repo](https://github.com/betterlockscreen/betterlockscreen)
 
 
-## 3 - Troubleshooting
+## 3 - GNOME extensions
+Alphabetical App Grid GNOME Extension
+```https://github.com/stuarthayhurst/alphabetical-grid-extension```
+
+## 4 - Troubleshooting
 
 ### If you are using spotify with flatpak
 * *Aplication does not show up into dmenu (it's necessary to create a link)
