@@ -67,6 +67,11 @@ Just Perfection Gnome Shell Extension
 Space Bar
 ```https://github.com/christopher-l/space-bar```
 
+Tactile
+```https://gitlab.com/lundal/tactile```
+
+
+
 ## 4 - Troubleshooting
 
 ### If you are using spotify with flatpak
