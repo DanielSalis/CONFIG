@@ -76,6 +76,9 @@ Tray Icons Reloaded
 Vitals
 ```https://github.com/corecoding/Vitals```
 
+Useless Gaps
+```https://extensions.gnome.org/extension/4684/useless-gaps/```
+
 
 ## 4 - Troubleshooting
 
