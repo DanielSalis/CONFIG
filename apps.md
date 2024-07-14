@@ -73,7 +73,8 @@ Tactile
 Tray Icons Reloaded
 ```https://github.com/MartinPL/Tray-Icons-Reloaded```
 
-
+Vitals
+```https://github.com/corecoding/Vitals```
 ## 4 - Troubleshooting
 
 ### If you are using spotify with flatpak
