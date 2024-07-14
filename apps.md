@@ -61,6 +61,10 @@ yay -S dunst
 Alphabetical App Grid GNOME Extension
 ```https://github.com/stuarthayhurst/alphabetical-grid-extension```
 
+Just Perfection Gnome Shell Extension
+```https://gitlab.gnome.org/jrahmatzadeh/just-perfection```
+
+
 
 ## 4 - Troubleshooting
 
