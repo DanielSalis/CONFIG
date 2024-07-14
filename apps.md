@@ -70,6 +70,8 @@ Space Bar
 Tactile
 ```https://gitlab.com/lundal/tactile```
 
+Tray Icons Reloaded
+```https://github.com/MartinPL/Tray-Icons-Reloaded```
 
 
 ## 4 - Troubleshooting
